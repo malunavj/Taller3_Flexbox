@@ -1,0 +1,116 @@
+.general {
+
+    display: flex;
+    border: 1px solid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background-color: rgb(190, 184, 184);
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+.caja1, .caja2 {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid;
+    background-color: rgb(250, 246, 246);
+    gap: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+
+}
+
+.caja3, .caja4 {
+    display: flex;
+    flex-direction: column;
+   
+    
+    border: 1px solid;
+    background-color: rgb(250, 246, 246);
+    gap: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+}
+
+
+.itemc1-1, .itemc1-2, .itemc1-3, .itemc1-4, .itemc1-5, .itemc1-6, .itemc1-7 {
+
+    height: 90px;
+    width: 90px;
+    border: 1px solid;
+    background-color: rgb(201, 184, 184);
+    text-align: center;
+    
+}
+
+.itemc2-1, .itemc2-2, .itemc2-3, .itemc2-4, .itemc2-5, .itemc2-6 {
+
+    height: 90px;
+    width: 90px;
+    border: 1px solid;
+    background-color: rgb(175, 156, 156);
+    text-align: center;
+
+}
+.itemc2-3 {
+    order: 1;
+}
+.itemc2-6 {
+    order: 2;
+}
+.itemc2-1 {
+    order: 3;
+}
+.itemc2-4 {
+    order: 4;
+}
+.itemc2-2 {
+    order: 5;
+}
+.itemc2-5 {
+    order: 6;
+}
+
+.itemc3-1, .itemc3-2, .itemc3-3, .itemc3-4, .itemc3-5, .itemc3-6 {
+
+    height: 90px;
+    width: 90px;
+    border: 1px solid;
+    background-color: rgb(175, 156, 156);
+    text-align: center;
+
+}
+
+@media (max-width: 800px) {
+.caja4 {
+    background-color: rgb(224, 151, 151);
+    flex-direction: column-reverse;
+}
+}
+
+.itemc4-1, .itemc4-2, .itemc4-3, .itemc4-4, .itemc4-5, .itemc4-6 {
+
+    height: 90px;
+    width: 90px;
+    border: 1px solid;
+    background-color: rgb(175, 156, 156);
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
